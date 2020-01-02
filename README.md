@@ -6,17 +6,17 @@
 
 ## Installation (Hướng Dẫn Sử Dụng)
 
-### 1: [Tải Xuống File](https://codeload.github.com/seakBz/chatbot/zip/master)
-### 2: Ứng Dụng hỗ trợ
-a. [Node js](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi).
+### I: [Tải Xuống File](https://codeload.github.com/seakBz/chatbot/zip/master)
+### II: Chẩn Bị
+1. [Node js](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi).
 
-b. App: Google authenticator [CH Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=vi).
+2. App: Google authenticator [CH Play](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=vi).
 
-c. Git: [Git](https://git-scm.com/download/win).
+3. Git: [Git](https://git-scm.com/download/win).
 
-d. [Notepad++](https://codeload.github.com/huykhangvo/cmt/zip/master).
+4. [Notepad++](https://codeload.github.com/huykhangvo/cmt/zip/master).
 
-### 3: Thiết lập Google authenticator
+### III: Thiết lập Google authenticator
 sử dụng app : Google authenticator.
 	
 1.[Đến Setting xác minh 2 bước](https://www.facebook.com/security/2fac/settings/).
@@ -26,7 +26,7 @@ sử dụng app : Google authenticator.
 ![Two-factor authentication](https://i.imgur.com/CVaokMR.png)
 
 
-### 4 - Edit content
+### IV - Cấu Hình Đăng Nhập
 1. Open file
 
 
@@ -39,6 +39,11 @@ sử dụng app : Google authenticator.
  - Run `node login.js` ->  Nhập Xác Thực code > từ app [Google authenticator]
  - Run `node bot.js`
 
-## Deploy on heroku
+## Cài Ứng Dụng Lên Sever
+[Đến heroku](https://www.heroku.com/)
+
+[Gmail 10p](https://10minutemail.net/?lang=vi)
+[Ping Free 14 ngày](https://my.pingdom.com/)
+
 
  
