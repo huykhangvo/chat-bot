@@ -1,5 +1,5 @@
-# Chat----bot facebook
-=> Send messages facebook when you offline
+# Chat----bot facebook 
+=> [Video Hướng Dẫn](youtube)
 
 [demo cứ nhắn tin với facebook này](https://www.facebook.com/vohuykhang0209)
 
@@ -28,13 +28,10 @@ sử dụng app : Google authenticator.
 
 ### IV - Cấu Hình Đăng Nhập
 1. Open file
-
-
-2. Run `npm install `
-
-3. Edit file `login.js`
+2. Edit file `login.js`
 ![Open file](https://i.imgur.com/QxJNrWy.png)
 
+3. Run `npm install `
 4. On cmd screen  
  - Run `node login.js` ->  Nhập Xác Thực code > từ app [Google authenticator]
  - Run `node bot.js`
