@@ -21,10 +21,10 @@
 4. [Download Notepad++](https://www.google.com/search?q=notepad%2B%2B&oq=no&aqs=chrome.0.69i59j69i57j35i39j0l2j69i65j69i60l2.916j0j7&sourceid=chrome&ie=UTF-8)
 
 ## Chapter 3: Set Google authenticator
-1. ![Đăng nhập vào facebook trước tại](https://www.facebook.com)
-1. ![Two-factor authentication](https://www.facebook.com/security/2fac/settings/)
+1.![Đăng nhập vào facebook trước tại](https://www.facebook.com)
+2.![Two-factor authentication](https://www.facebook.com/security/2fac/settings/)
 
-2. In Mobile open app [Google authenticator] `open - > scan QR` enter `Code`
+3. In Mobile open app [Google authenticator] `open - > scan QR` enter `Code`
 
 
 ![Two-factor authentication](https://i.imgur.com/CVaokMR.png)
