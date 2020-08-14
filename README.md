@@ -1,47 +1,70 @@
-# Chat----bot facebook 
+# Chat-bot facebook
+> Send messages facebook when you offline
 => [Video Hướng Dẫn](youtube)
 
-[demo cứ nhắn tin với facebook này](https://www.facebook.com/vohuykhang0209)
+    ![chat-bot](https://i.imgur.com/WeT8Y6x.png)
 
 
-## Installation (Hướng Dẫn Sử Dụng)
+[Demo Messenger](facebook)
 
-### I: [Tải Xuống File](https://codeload.github.com/seakBz/chatbot/zip/master)
-### II: Chẩn Bị
-1. [Node js](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi)
+# Installation
 
-2. App: Google authenticator [Đến CHPlay](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=vi)
+## Chapter 1: [Download](https://codeload.github.com/seakBz/chatbot/zip/master)
+## Chapter 2: Download Environment
+1. [Download Node js](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi)
 
-3. [Git](https://git-scm.com/download/win)
+2. App: Install Google authenticator
+[Đến CHPlay](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2&hl=vi)
 
-4. [Notepad++](https://codeload.github.com/huykhangvo/cmt/zip/master)
+3. [Download Git](https://git-scm.com/download/win)
 
-### III: Thiết lập Google authenticator
-sử dụng app : Google authenticator.
+4. [Download Notepad++](https://codeload.github.com/huykhangvo/cmt/zip/master)
+
+## Chapter 3: Set Google authenticator
 	
-1.[Đến Setting xác minh 2 bước](https://www.facebook.com/security/2fac/settings/)
+1.![Two-factor authentication](https://www.facebook.com/security/2fac/settings/)
 
 2. In Mobile open app [Google authenticator] `open - > scan QR` enter `Code`
 
 
 ![Two-factor authentication](https://i.imgur.com/CVaokMR.png)
 
-### IV - Cấu Hình Đăng Nhập
-1. Open file
-2. Edit file `login.js`
+## Chapter 4: Edit content  |   (Đăng Nhập)
+### Step 1. Open file
+![Open file](https://i.imgur.com/tHHZ5p1.gif)
+
+### Step 2. Run `npm install `
+
+### Step 3. Edit file `login.js`
 ![Open file](https://i.imgur.com/QxJNrWy.png)
 
-3. Run `npm install `
-4. On cmd screen  
+### Step 4. Run `npm install `
+### Step 5. On cmd screen  
  - Run `node login.js` ->  Nhập Xác Thực code > từ app [Google authenticator]
  - Run `node bot.js`
 
-## Cài Ứng Dụng Lên Sever
-[Đến heroku](https://www.heroku.com/).
+## Chapter 5: Cài Ứng Dụng Lên Sever
+### Step 1: [Deploy on heroku](https://www.heroku.com/)
+![Create App](https://i.imgur.com/ZMTNrMe.gif)
 
-[Gmail 10p](https://10minutemail.net/?lang=vi).
+Start  (This is option **ON** - **OFF** bot)
 
-[Ping Free 14 ngày](https://my.pingdom.com/).
+![Run](https://i.imgur.com/QNY4JJh.gif)
 
+### Edit file - > Push on host
 
+`git add .`
+
+`git commit -m "content comment"`
+
+`git push heroku master`
+
+![Create App](https://i.imgur.com/LlyvegL.gif)
+### Step 2: [Gmail 10 phút](https://10minutemail.net/?lang=vi)
+
+### Step 3: [Create Traffic for website app](https://my.pingdom.com/)
+1. Go to [pingdom](https://www.pingdom.com). -> Create Account
+![pingdom](https://i.imgur.com/YxYqWnr.png)
+2. add website app
+![pingdom](https://i.imgur.com/nZD6qvw.png)
  
